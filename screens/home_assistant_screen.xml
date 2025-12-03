@@ -1,9 +1,4 @@
-<screen>
-    <lv_obj name="screen_ha" width="360" height="360">
-        <style>
-            <bg_color>#343a40</bg_color>
-        </style>
-    </lv_obj>
+<screen name="screen_ha" width="360" height="360" bg_color="#343a40">
     <lv_button name="ha_on_off_btn" width="180" height="50" align="top_mid" y="15" checkable="true">
         <lv_label text="P ON/OFF"/>
     </lv_button>
