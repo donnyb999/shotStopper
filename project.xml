@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="1.0.0">
+<project>
   <name>shotStopper</name>
-  <display width="360" height="360"/>
+  <display>
+    <width>360</width>
+    <height>360</height>
+  </display>
   <screens>
-    <screen>
-      <path>ui/shot_stopper_screen.xml</path>
-      <name>screen_shot_stopper</name>
-    </screen>
-    <screen>
-      <path>ui/home_assistant_screen.xml</path>
-      <name>screen_ha</name>
-    </screen>
+    <screen path="ui/shot_stopper_screen.xml" name="screen_shot_stopper" type="screen"/>
+    <screen path="ui/home_assistant_screen.xml" name="screen_ha" type="screen"/>
   </screens>
 </project>
 
