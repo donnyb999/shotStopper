@@ -1,13 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<globals>
-  <theme>
-    <color_primary>#007AFF</color_primary>
-    <color_secondary>#5856D6</color_secondary>
-  </theme>
-  <fonts>
-    <font name="montserrat_16" size="16"/>
-    <font name="montserrat_24" size="24"/>
-    <font name="montserrat_48" size="48"/>
-  </fonts>
-</globals>
-
+<globals/>

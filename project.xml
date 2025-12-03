@@ -6,8 +6,8 @@
     <height>360</height>
   </display>
   <screens>
-    <screen path="ui/shot_stopper_screen.xml" name="screen_shot_stopper" type="screen"/>
-    <screen path="ui/home_assistant_screen.xml" name="screen_ha" type="screen"/>
+    <screen path="screens/shot_stopper_screen.xml" name="screen_shot_stopper"/>
+    <screen path="screens/home_assistant_screen.xml" name="screen_ha"/>
   </screens>
 </project>
 
