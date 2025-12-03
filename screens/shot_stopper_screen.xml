@@ -1,49 +1,53 @@
 <screen>
     <styles>
         <style name="screen_bg" bg_color="0x000000"/>
-        <style name="label_white" text_color="0xFFFFFF"/>
-        <style name="label_grey" text_color="0x808080"/>
-        <style name="label_green" text_color="0x00FF00"/>
+        <style name="label_white_24" text_color="0xFFFFFF" text_font="montserrat_24"/>
+        <style name="label_white_48" text_color="0xFFFFFF" text_font="montserrat_48"/>
+        <style name="label_white_16" text_color="0xFFFFFF" text_font="montserrat_16"/>
+        <style name="label_grey_24" text_color="0x808080" text_font="montserrat_24"/>
+        <style name="label_green_24" text_color="0x00FF00" text_font="montserrat_24"/>
         <style name="btn_grey" bg_color="0x808080"/>
+        <style name="preset_container_style" flex_flow="row" flex_main_place="space_evenly" flex_cross_place="center" flex_track_place="center"/>
     </styles>
     <view>
         <lv_obj name="screen_shot_stopper" width="360" height="360">
             <style name="screen_bg"/>
         </lv_obj>
-        <lv_label name="ble_status_label" text="B" align="top_mid" y="10" font="montserrat_24">
-            <style name="label_grey"/>
+        <lv_label name="ble_status_label" text="B" align="top_mid" y="10">
+            <style name="label_grey_24"/>
         </lv_label>
-        <lv_label name="title_label" text="Target Weight (g)" align="top_mid" y="50" font="montserrat_24">
-            <style name="label_white"/>
+        <lv_label name="title_label" text="Target Weight (g)" align="top_mid" y="50">
+            <style name="label_white_24"/>
         </lv_label>
-        <lv_label name="weight_label" text="..." align="center" y="-30" font="montserrat_48">
-            <style name="label_white"/>
+        <lv_label name="weight_label" text="..." align="center" y="-30">
+            <style name="label_white_48"/>
         </lv_label>
-        <lv_label name="checkmark_label" text="OK" align="center" y="10" font="montserrat_24" hidden="true">
-            <style name="label_green"/>
+        <lv_label name="checkmark_label" text="OK" align="center" y="10" hidden="true">
+            <style name="label_green_24"/>
         </lv_label>
-        <lv_obj name="preset_container" width="320" height="80" align="bottom_mid" y="-60" flex_flow="row" flex_align="space_evenly,center,center">
+        <lv_obj name="preset_container" width="320" height="80" align="bottom_mid" y="-60">
+            <style name="preset_container_style"/>
             <lv_button name="preset_btn_0" width="90" height="60">
                 <style name="btn_grey"/>
-                <lv_label name="preset_label_0" text="36 g" font="montserrat_24">
-                    <style name="label_white"/>
+                <lv_label name="preset_label_0" text="36 g">
+                    <style name="label_white_24"/>
                 </lv_label>
             </lv_button>
             <lv_button name="preset_btn_1" width="90" height="60">
                 <style name="btn_grey"/>
-                <lv_label name="preset_label_1" text="40 g" font="montserrat_24">
-                    <style name="label_white"/>
+                <lv_label name="preset_label_1" text="40 g">
+                    <style name="label_white_24"/>
                 </lv_label>
             </lv_button>
             <lv_button name="preset_btn_2" width="90" height="60">
                 <style name="btn_grey"/>
-                <lv_label name="preset_label_2" text="45 g" font="montserrat_24">
-                    <style name="label_white"/>
+                <lv_label name="preset_label_2" text="45 g">
+                    <style name="label_white_24"/>
                 </lv_label>
             </lv_button>
         </lv_obj>
-        <lv_label name="battery_label" text="Batt: --%" align="bottom_mid" y="-20" font="montserrat_16">
-            <style name="label_white"/>
+        <lv_label name="battery_label" text="Batt: --%" align="bottom_mid" y="-20">
+            <style name="label_white_16"/>
         </lv_label>
     </view>
 </screen>
