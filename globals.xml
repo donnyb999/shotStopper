@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<globals/>
+<globals>
+    <api>
+        <!-- Add <enumdefs> here -->
+    </api>
+
+    <consts>
+        <!-- Add <px>, <int>, <color> etc here -->
+    </consts>
+
+    <styles>
+        <!-- Add <style> tags here -->
+    </styles>
+
+    <subjects>
+        <!-- Add <int>, <string>, or <float> subjects here -->
+    </subjects>
+
+    <images>
+        <!-- Add <file> or <data> tags here -->
+    </images>
+
+    <fonts>
+        <!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+    </fonts>
+</globals>
