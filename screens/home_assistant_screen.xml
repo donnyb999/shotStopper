@@ -1,23 +1,31 @@
-<screen name="screen_ha" width="360" height="360" bg_color="#343a40">
-    <lv_button name="ha_on_off_btn" width="180" height="50" align="top_mid" y="15" checkable="true">
-        <lv_label text="P ON/OFF"/>
-    </lv_button>
-    <lv_obj name="ha_mode_cont" width="150" height="60" align="top_left" x="20" y="80">
-        <lv_label name="ha_mode_label" text="Pre-brew"/>
-    </lv_obj>
-    <lv_obj name="ha_preinf_time_cont" width="150" height="80" align="top_right" x="-20" y="80">
-        <lv_label name="ha_preinf_time_label" text="0.8s"/>
-    </lv_obj>
-    <lv_obj name="ha_temp_cont" width="150" height="80" align="center" x="-85" y="30">
-        <lv_label name="ha_temp_label" text="93.0 C"/>
-    </lv_obj>
-    <lv_obj name="ha_steam_cont" width="120" height="80" align="center" x="85" y="30">
-        <lv_label name="ha_steam_label" text="Pwr: 3"/>
-    </lv_obj>
-    <lv_button name="ha_backflush_cont" width="180" height="50" align="bottom_right" x="-20" y="-15">
-        <lv_label text="R BACKFLUSH"/>
-    </lv_button>
-    <lv_obj name="last_shot_cont" width="120" height="50" align="bottom_left" x="20" y="-15">
-        <lv_label name="ha_last_shot_label" text="Last: 0.0s"/>
-    </lv_obj>
+<screen>
+    <styles>
+        <style name="screen_bg" bg_color="0x343a40"/>
+    </styles>
+    <view>
+        <lv_obj name="screen_ha" width="360" height="360">
+            <style name="screen_bg"/>
+        </lv_obj>
+        <lv_button name="ha_on_off_btn" width="180" height="50" align="top_mid" y="15" checkable="true">
+            <lv_label text="P ON/OFF"/>
+        </lv_button>
+        <lv_obj name="ha_mode_cont" width="150" height="60" align="top_left" x="20" y="80">
+            <lv_label name="ha_mode_label" text="Pre-brew"/>
+        </lv_obj>
+        <lv_obj name="ha_preinf_time_cont" width="150" height="80" align="top_right" x="-20" y="80">
+            <lv_label name="ha_preinf_time_label" text="0.8s"/>
+        </lv_obj>
+        <lv_obj name="ha_temp_cont" width="150" height="80" align="center" x="-85" y="30">
+            <lv_label name="ha_temp_label" text="93.0 C"/>
+        </lv_obj>
+        <lv_obj name="ha_steam_cont" width="120" height="80" align="center" x="85" y="30">
+            <lv_label name="ha_steam_label" text="Pwr: 3"/>
+        </lv_obj>
+        <lv_button name="ha_backflush_cont" width="180" height="50" align="bottom_right" x="-20" y="-15">
+            <lv_label text="R BACKFLUSH"/>
+        </lv_button>
+        <lv_obj name="last_shot_cont" width="120" height="50" align="bottom_left" x="20" y="-15">
+            <lv_label name="ha_last_shot_label" text="Last: 0.0s"/>
+        </lv_obj>
+    </view>
 </screen>
